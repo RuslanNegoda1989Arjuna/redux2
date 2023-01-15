@@ -10,10 +10,9 @@ export const TaskCounter = () => {
     } else {
       acc.active += 1;
     }
-    console.log(acc);
 
     return acc
-  }, {active: 0, copleted: 0})
+  }, {active: 0, completed: 0})
   return (
     <div>
       <p className={css.text}>Active: {count.active}</p>
